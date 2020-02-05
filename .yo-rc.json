@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "jp.invastsec.tafx.trade",
+      "nativeLanguage": "ja"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "tafxtrade",
+    "packageName": "jp.invastsec.tafx.trade",
+    "packageFolder": "jp/invastsec/tafx/trade",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "OGJjNmNiMmVjN2NhYmQyYjhjM2E0NzJiZDZjYmI5YTlkNzA1ZjE1NDY5YzgwNzg1MjhmYWVkMDA4MDdhODcwZTRlNDFhNTA3ZmNlYzI0OGRkYzYzZTI3YmI0MTM1NDg4MWE1NjE3MDkzZDU1YjhiOGRiZGNiMTJhZGFhYWE2NjM=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1580879122345,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "ja",
+    "languages": ["ja", "zh-cn", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

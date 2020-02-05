@@ -1,0 +1,14 @@
+version: '2'
+services:
+  tafxtrade-app:
+    image: tafxtrade
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://tafxtrade-postgresql:5432/tafxtrade
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+  tafxtrade-postgresql:
+    extends:
+      file: postgresql.yml
+      service: tafxtrade-postgresql
